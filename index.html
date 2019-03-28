@@ -10,10 +10,19 @@
         max-width: 100%;
         vertical-aling: top;
       }
+      img#responsive {
+        display: none;
+      }
+      @media screen and (max-width: 768px)
+      {
+        img#responsive {
+          display: block;
+        }
+      }
     </style>
   </head>
   <body>
-    <img src="images/header.jpg" alt="">
+    <img src="images/responsive.png" alt="" id="responsive">
     <img src="images/hero.jpg" alt="">
     <img src="images/acustica.jpg" alt="">
     <img src="images/clasic.jpg" alt="">
